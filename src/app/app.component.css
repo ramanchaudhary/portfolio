@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #e01515;
+  }
+
+  html {
+    /* Replace 'path/to/your/background-image.jpg' with the actual path to your background image */
+    background-image: url('src/assets/bgi.png');
+    /* Optionally, you can set the background size and repeat properties */
+    background-size: cover; /* cover, contain, or specific dimensions */
+    background-repeat: no-repeat; /* no-repeat, repeat-x, repeat-y, or repeat */
+    /* Optionally, you can set the background position */
+    background-position: center center; /* center center, top left, bottom right, etc. */
+  }
+  
+  body {
+    /* Set a background color or transparency for the body to allow the background image to show through */
+    background-color: transparent; /* You can set a specific color here if needed */
+  }

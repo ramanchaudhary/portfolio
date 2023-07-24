@@ -1,0 +1,47 @@
+<!-- contact.component.html -->
+<!-- <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" [ngClass]="{'enlarge-text': isHover}">
+        Email: your.email@example.com
+      </p>
+      <p (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" [ngClass]="{'enlarge-text': isHover}">
+        Mobile: +1 123-456-7890
+      </p>
+  </div>
+
+  <div class="image-container">
+    Add your image here -->
+    <!-- <img src="path/to/your/image.jpg" alt="Image">
+  </div> -->
+
+
+  <!-- <div class="contact-container">
+    <div class="contact-info">
+       Add your contact information here -->
+      <!-- <h2>Contact Information</h2>
+      <p>Email: your.email@example.com</p>
+      <p>Mobile: +1 123-456-7890</p> -->
+      <!-- Add more contact details if needed -->
+    <!-- </div>
+   -->
+   
+  <div class="image-container" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" (click)="openContactDialog()">
+    <!-- Add your image here -->
+    <img src=" ../assets/contact.jpg" alt="Image" >
+    <!-- <img [ngClass]="{'enlarge-image': isHover}"> -->
+    <div class="template" *ngIf="showTemplate">
+      <h3>Contact Template</h3>
+      <p>Email: your.email@example.com</p>
+      <p>Mobile: +1 123-456-7890</p>
+
+      <div class="wave-text">
+        Waving Text Effect
+
+      </div>
+
+      
+
+
+    </div>
+  </div>
+

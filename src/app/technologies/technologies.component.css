@@ -1,0 +1,20 @@
+.card {
+
+    height: 100%;
+
+    margin-bottom: 1.5rem
+
+
+
+
+  }
+
+  .card-img-top {
+
+    margin-top: 20px;
+
+    max-height: 150px; /* Adjust the max height of the logo as per your preference */
+
+    object-fit: contain; /* Adjust the object-fit property as per your preference */
+
+  }    

@@ -1,0 +1,71 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../../assets/homebck.jpg');
+  }
+  
+  .profile-photo {
+    width: 200px;
+    
+  margin-left: 1in;
+    height: 200px;
+    border-radius: 10%;
+    background-image: url('/assets/profile-photo.jpg');
+    background-size: contain;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .personal-info {
+    margin-top: 5%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-top: -4in;
+    color: red;
+    transform: rotate(-6deg);
+    margin-left: -180px;
+
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    background-color: #000;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  
+  .led-container {
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0px;
+    overflow: hidden;
+    width: 450px;
+    height: 150px;
+    margin-top: 19px;
+    margin-right: 64px;
+  }
+  
+  .led-text {
+    color: red;
+    font-size: 72px;
+    font-family: monospace;
+    white-space: nowrap;
+    animation: _ngcontent-ng-c2667878134_running-text 5s linear infinite;
+    margin-top: 31px;
+  }
+  
+  @keyframes running-text {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
